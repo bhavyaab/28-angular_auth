@@ -1,0 +1,36 @@
+@import "../scss/lib/theme/vars";
+
+.signup{
+}
+form{
+  width: $box-std * 2;
+  padding: $gutter-std;
+  margin-left: $gutter-std * 2;
+  margin-bottom: $gutter-std;
+  li{
+   list-style: none;
+   color: $color-d;
+   font-size: $padding-std * 2;
+   margin-left: $gutter-std / 2;
+  }
+}
+
+.input-std{
+ font-size: $padding-std * 1.5;
+ display: block;
+ margin: $gutter-std / 2;
+ padding: $padding-std;
+ width: $box-std * 2;
+}
+
+.btn-std{
+  border-radius: $padding-std / 1.5;
+  background-color: $brand-primary;
+  border: none;
+  padding: $padding-std;
+  width: $box-std;
+  font-size: $padding-std * 2;
+  color: $color-l;
+  float: right;
+  margin-right: $gutter-std * 3;
+}

@@ -1,0 +1,21 @@
+@import '../theme/vars';
+
+
+header{
+  background-color: $brand-primary;
+  height: 10vh;
+  color: $color-l;
+
+  img{
+   height: 4vh;
+   width: 4vh;
+   margin-top: 3vh;
+   margin-left: $box-std / 8;
+   display: inline-block;
+  }
+  li{
+   text-decoration: none;
+   display: inline-block;
+   margin-left: 2.5vh;
+  }
+ }
